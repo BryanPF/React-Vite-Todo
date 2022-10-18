@@ -12,7 +12,7 @@ export const Container = ()=>{
 
   return(
     <div>
-      <h1>Todo List</h1>
+      <h1>TODOS: <small>{list.length}</small></h1>
       <FormTodo handleAddItem={ handleAddItem } />
       <TaskList list={ list } setList={ setList } />
     </div>
