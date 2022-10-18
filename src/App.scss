@@ -76,7 +76,7 @@ $colorBlueHover:#166b72;
 $duration: 0.4s;
 $stroke: #42d7e4;
 $colorText: #076b74;
-$colorTextChecked: #a5e7ec;
+$colorTextChecked: #0c8888;
 
 .todo {
   display: block;
@@ -162,13 +162,14 @@ $colorTextChecked: #a5e7ec;
   transition-delay: $duration * 0.2; 
 }
 .todo__check {
-  stroke: $stroke;
+  stroke:rgb(13, 238, 13);
   stroke-dasharray: 9.8995, 9.8995; stroke-dashoffset: 9.8995;
   transition-duration: $duration * 0.4; 
 }
 .todo__line {
   stroke-dasharray: 168, 1684; 
   stroke-dashoffset: 168;
+  stroke: rgb(154, 247, 16);
 }
 .todo__circle { 
   animation-delay: $duration * 0.7; 
